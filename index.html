@@ -1,0 +1,343 @@
+<!-- 页头 -->
+<div class="fullscreen">
+<table width="100%" class="top" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td>
+<table width="100%" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td width="63%"> 
+<!-- 登录 -->
+<script>
+document.write('<script src="/e/member/login/loginjs.php?t='+Math.random()+'"><'+'/script>');
+</script><script src="/e/member/login/loginjs.php?t=0.6860198663539848"></script><form name="login" action="/e/enews/index.php" method="post" 360chrome_form_autofill="2">    <input name="enews" type="hidden" value="login">    <input name="ecmsfrom" type="hidden" value="9">    用户名：<input name="username" class="inputText" type="text" size="16">&nbsp;    密码：<input name="password" class="inputText" type="password" size="16">&nbsp; <input name="key" type="text" size="4"> <img align="absmiddle" onclick="this.src=http://www.sycz.qdedu.net/e/ShowKey/?v=login&amp;'+Math.random();" alt="点击刷新图片" src="http://www.sycz.qdedu.net/e/ShowKey/?v=login">  &nbsp;<input name="Submit" class="inputSub" type="submit" value="登陆">&nbsp;    <input name="Submit2" class="inputSub" onclick="window.open('/e/member/register/');" type="button" value="注册"></form>
+<script language="javascript">
+function showtime()
+{
+var today,hour,second,minute,year,month,date;
+var strDate ;
+today=new Date();
+var n_day = today.getDay();
+switch (n_day)
+{
+    case 0:{
+      strDate = "星期日"
+    }break;
+    case 1:{
+      strDate = "星期一"
+    }break;
+    case 2:{
+      strDate ="星期二"
+    }break;
+    case 3:{
+      strDate = "星期三"
+    }break;
+    case 4:{
+      strDate = "星期四"
+    }break;
+    case 5:{
+      strDate = "星期五"
+    }break;
+    case 6:{
+      strDate = "星期六"
+    }break;
+    case 7:{
+      strDate = "星期日"
+    }break;
+}
+myyear = today.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;  
+month = today.getMonth()+1;
+date = today.getDate();
+myhour = today.getHours();
+hour=(myhour>=10)?myhour:'0'+myhour
+myminute =today.getMinutes();
+minute=(myminute>10)?myminute:'0'+myminute
+mysecond = today.getSeconds();
+second=(mysecond>10)?mysecond:'0'+mysecond
+document.getElementById('time').innerHTML = year + "年" + month + "月" + date + "日" + strDate +" " + hour + ":" + minute + ":" + second; //显示时间
+setTimeout("showtime();", 1000); //设定函数自动执行时间为 1000 ms(1 s)
+}
+</script>
+</td>
+<td align="right">
+<span id="time">2019年1月23日星期三 12:46:44</span>
+<script language="javascript"> showtime();</script>
+<a onclick="window.external.addFavorite(location.href,document.title)" href="">加入收藏</a> | <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('www.sycz.qdedu.net')" href="">设为首页</a> | <a href="/e/member/cp/">会员中心</a> | <a href="/e/DoInfo/">我要投稿</a> 
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<div class="head_hyf">
+<table width="100%" border="0" cellSpacing="10" cellPadding="0">
+<tbody><tr vAlign="middle">
+<td align="center"><img src="/skin/default/images/biaozhi.png"></td>
+</tr>
+</tbody></table>
+</div>
+<div class="nav_screen">
+<!-- 导航tab选项卡 -->
+<table width="920" align="center" class="nav" border="0" cellSpacing="0" cellPadding="0">
+  <tbody><tr> 
+    <td class="nav_global"><ul>
+        <li class="curr" id="tabnav_btn_0" onmouseover="tabit(this)"><a href="/">网站首页</a></li>
+        <li id="tabnav_btn_1" onmouseover="tabit(this)"><a href="/school/">学校概况</a></li><li id="tabnav_btn_2" onmouseover="tabit(this)"><a href="/news/">校园动态</a></li><li id="tabnav_btn_3" onmouseover="tabit(this)"><a href="/party/">党建与工会</a></li><li id="tabnav_btn_4" onmouseover="tabit(this)"><a href="/teaching/">教师发展中心</a></li><li id="tabnav_btn_5" onmouseover="tabit(this)"><a href="/moral/">学生管理中心</a></li><li id="tabnav_btn_6" onmouseover="tabit(this)"><a href="/logistics/">后勤保障服务</a></li><li id="tabnav_btn_7" onmouseover="tabit(this)"><a href="/resoure/">课程资源</a></li> 
+           <li id="tabnav_btn_8" onmouseover="tabit(this)"><a href="http://192.168.110.100:8080/video"><font color="white">校内网络直播</font></a></li>
+</ul></td>
+  </tr>
+<tr>
+    <td class="nav_sub"><!-- 子栏目导航 -->
+      <div id="tabnav_div_0" style="display: block;"><marquee onmouseover="this.stop()" onmouseout="this.start()" direction="left" scrollAmount="5"><a href="http://www.sycz.qdedu.net/news/notification">最新通知</a>：[<a title="青岛市教育局办公室关于进一步做好假期安全等有关工作的紧急通知" href="/news/notification/2018-01-29/2135.html"><strong><font color="#0000ff">青岛市教育局办公</font></strong></a>][<a title="教师培训学分登记管理" href="/news/notification/2017-12-18/2121.html"><font color="#ff0000">教师培训学分登记</font></a>][<a title="关于转发《青岛市教育局关于在全市教育系统开展向崔金华老师学习活动的决定》的通知" href="/news/notification/2017-12-17/2120.html"><strong><font color="#ff3300">关于转发《青岛市</font></strong></a>]</marquee></div>
+      <div id="tabnav_div_1" style="display: none;">| <a href="/school/introduction/">学校简介</a> | <a href="/school/ethos/">校风校训</a> | <a href="/school/lead/">现任领导</a> | <a href="/school/president/">历任校长</a> | <a href="/school/history/">学校沿革</a> | <a href="/school/philosophy/">办学理念</a> | <a href="/school/policy/">政策法规</a> | <a href="/school/honors/">学校荣誉</a> | <a href="/school/landscape/">校园风景</a> | </div>
+      <div id="tabnav_div_2" style="display: none;">| <a href="/news/announcement/">学校公告</a> | <a href="/news/notification/">校内通知</a> | <a href="/news/wugongkai/">五公开</a> | <a href="/news/management/">校务管理</a> | <a href="/news/schoolnews/">校园新事</a> | </div>
+      <div id="tabnav_div_3" style="display: none;">| <a href="/party/organizations/">组织机构</a> | <a href="/party/activities/">活动动态</a> | <a href="/party/learning/">学习园地</a> | <a href="/party/goodactivities/">创先争优活动</a> | <a href="/party/ourhome/">教工之家</a> | </div>
+      <div id="tabnav_div_4" style="display: none;">| <a href="/teaching/dynamicteaching/">教研动态</a> | <a href="/teaching/education/">教育科研</a> | <a href="/teaching/psychological/">心灵港湾</a> | <a href="/teaching/training/">教师培训</a> | <a href="/teaching/curriculum/">课程改革</a> | <a href="/teaching/edunews/">实验教学</a> | <a href="/teaching/topics/">信息技术</a> | <a href="/teaching/meiwen/">美文欣赏</a> | <a href="/teaching/article1/">教学随笔</a> | <a href="/teaching/yanxiu/">远程研修</a> | </div>
+      <div id="tabnav_div_5" style="display: none;">| <a href="/moral/forum/">班主任论坛</a> | <a href="/moral/concert/">我的青春我的歌</a> | <a href="/moral/generalmoral/">德育常规</a> | <a href="/moral/management/">管理制度</a> | <a href="/moral/Topics/">主题教育</a> | <a href="/moral/activities/">德育活动</a> | <a href="/moral/quantitative/">班级量化管理</a> | <a href="/moral/class/">班级建设</a> | <a href="/moral/flag/">国旗下讲话</a> | <a href="/moral/team/">团队活动</a> | <a href="/moral/securty/">安全管理</a> | <a href="/moral/parents/">家校共建</a> | </div>
+      <div id="tabnav_div_6" style="display: none;">| <a href="/logistics/management/">规章制度</a> | <a href="/logistics/green/">绿化美化</a> | <a href="/logistics/finance/">财务管理</a> | </div>
+      <div id="tabnav_div_7" style="display: none;">| <a href="/resoure/zz/">政治</a> | <a href="/resoure/yw/">语文</a> | <a href="/resoure/sx/">数学</a> | <a href="/resoure/yy/">英语</a> | <a href="/resoure/wl/">物理</a> | <a href="/resoure/hx/">化学</a> | <a href="/resoure/sds/">史地生</a> | <a href="/resoure/ytm/">音体美</a> | <a href="/resoure/zs/">综合实践</a> | <a href="/resoure/xl/">心理健康</a> | <a href="/resoure/dw/">对外交流</a> | <a href="/resoure/df/">地方课程</a> | <a href="/resoure/xx/">学校课程</a> | <a href="/resoure/sj/">试卷</a> | <a href="/resoure/soft/">常用软件</a> | </div>
+      <div id="tabnav_div_8" style="display: none;"><marquee onmouseover="this.stop()" onmouseout="this.start()" direction="left" scrollAmount="5"><a href="http://www.sycz.qdedu.net/news/notification">最新通知</a>：[<a title="青岛市教育局办公室关于进一步做好假期安全等有关工作的紧急通知" href="/news/notification/2018-01-29/2135.html"><strong><font color="#0000ff">青岛市教育局办公</font></strong></a>][<a title="教师培训学分登记管理" href="/news/notification/2017-12-18/2121.html"><font color="#ff0000">教师培训学分登记</font></a>][<a title="关于转发《青岛市教育局关于在全市教育系统开展向崔金华老师学习活动的决定》的通知" href="/news/notification/2017-12-17/2120.html"><strong><font color="#ff3300">关于转发《青岛市</font></strong></a>]</marquee></div>
+            </td></tr>
+</tbody></table>
+</div>
+</div>
+<div class="oldscreen">
+<table width="100%" border="0" cellSpacing="10" cellPadding="0">
+<tbody><tr vAlign="top">
+<td class="sider"><table width="100%" class="title" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td><strong>通知公告</strong></td>
+</tr>
+</tbody></table>
+<table width="100%" class="box no_doc" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td><ul>
+<li><a title="拒绝有偿家教" href="/news/notification/2014-04-23/1332.html"><strong><font color="#000000">★拒绝有偿家教★</font></strong></a></li>
+<li><a title="职称评审" href="/news/announcement/2018-10-22/2197.html"><strong>职称评审</strong></a></li><li><a title="胶州市初级实验中学学生欺凌治理委员会" href="/news/announcement/2018-09-17/2196.html">胶州市初级实验中学学生欺凌治理</a></li><li><a title="2018年实验初中电脑派位结果" href="/teaching/entrance/2018-07-03/2195.html">2018年实验初中电脑派位结果</a></li><li><a title="2018实验初中特长生录取名单公示" href="/teaching/entrance/2018-06-25/2194.html">2018实验初中特长生录取名单公示</a></li><li><a title="更正说明" href="/news/announcement/2018-06-20/2193.html">更正说明</a></li><li><a title="2018年特长生专业测试名单及注意事项" href="/teaching/entrance/2018-06-19/2192.html">2018年特长生专业测试名单及注意</a></li><li><a title="文化素质及专业测试内容及要求（2018年）" href="/teaching/entrance/2018-06-19/2190.html">文化素质及专业测试内容及要求（</a></li><li><a title="作息时间表（冬）" href="/news/announcement/2018-04-02/2155.html">作息时间表（冬）</a></li><li><a title="作息时间表（夏）" href="/news/announcement/2018-04-02/2154.html">作息时间表（夏）</a></li></ul>
+</td>
+</tr>
+</tbody></table></td>
+<td class="content"><table width="100%" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+          <td> 
+            <!-- 焦点图片，调用默认模型带标题图片的头条信息 -->
+            <script type="text/javascript">
+<!--
+ var interval_time=3;
+ var focus_width=400;
+ var focus_height=320;
+ var text_height=22;
+ var text_align="center";
+ var swf_height = focus_height+text_height;
+ var swfpath="/e/data/images/pixviewer.swf";
+ var swfpatha="/e/data/images/pixviewer.swf";
+ 
+ var pics="%2Fd%2Ffile%2Fp%2F2018-12-11%2F538e879db321ec626e7f5ca5b8c6e50e.jpg%7C%2Fd%2Ffile%2Fp%2F2018-12-11%2F06e595aa7f17de9b9fb812c78bf098d6.jpg%7C%2Fd%2Ffile%2Fp%2F2018-02-27%2Fe58d8687176e85fdae7caa1ef2c88835.jpg";
+ var links="%2Fnews%2Fschoolnews%2F2018-12-11%2F2205.html%7C%2Fnews%2Fschoolnews%2F2018-12-11%2F2204.html%7C%2Fteaching%2Ftraining%2F2018-02-27%2F2136.html";
+ var texts="&lt;strong&gt;家校同心绘新篇&lt;/strong&gt;|“祖国在我心，青春梦飞翔”校园合唱比赛|开学尽快进入最佳状态";
+ 
+ document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">');
+ document.write('<param name="movie" value="'+swfpath+'"><param name="quality" value="high"><param name="bgcolor" value="#ffffff">');
+ document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+ document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'&text_align='+text_align+'&interval_time='+interval_time+'">');
+ document.write('<embed src="'+swfpath+'" wmode="opaque" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'&text_align='+text_align+'&interval_time='+interval_time+'" menu="false" bgcolor="#ffffff" quality="high" width="'+ focus_width +'" height="'+ swf_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+ document.write('</object>');
+//-->
+</script><object width="400" height="342" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codeBase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0"><PARAM NAME="_cx" VALUE="10583"><PARAM NAME="_cy" VALUE="9049"><PARAM NAME="FlashVars" VALUE="pics=%2Fd%2Ffile%2Fp%2F2018-12-11%2F538e879db321ec626e7f5ca5b8c6e50e.jpg%7C%2Fd%2Ffile%2Fp%2F2018-12-11%2F06e595aa7f17de9b9fb812c78bf098d6.jpg%7C%2Fd%2Ffile%2Fp%2F2018-02-27%2Fe58d8687176e85fdae7caa1ef2c88835.jpg&amp;links=%2Fnews%2Fschoolnews%2F2018-12-11%2F2205.html%7C%2Fnews%2Fschoolnews%2F2018-12-11%2F2204.html%7C%2Fteaching%2Ftraining%2F2018-02-27%2F2136.html&amp;texts=<strong>家校同心绘新篇</strong>|“祖国在我心，青春梦飞翔”校园合唱比赛|开学尽快进入最佳状态&amp;borderwidth=400&amp;borderheight=320&amp;textheight=22&amp;text_align=center&amp;interval_time=3"><PARAM NAME="Movie" VALUE="/e/data/images/pixviewer.swf"><PARAM NAME="Src" VALUE="/e/data/images/pixviewer.swf"><PARAM NAME="WMode" VALUE="Opaque"><PARAM NAME="Play" VALUE="0"><PARAM NAME="Loop" VALUE="-1"><PARAM NAME="Quality" VALUE="High"><PARAM NAME="SAlign" VALUE=""><PARAM NAME="Menu" VALUE="0"><PARAM NAME="Base" VALUE=""><PARAM NAME="AllowScriptAccess" VALUE=""><PARAM NAME="Scale" VALUE="NoScale"><PARAM NAME="DeviceFont" VALUE="0"><PARAM NAME="EmbedMovie" VALUE="0"><PARAM NAME="BGColor" VALUE="FFFFFF"><PARAM NAME="SWRemote" VALUE=""><PARAM NAME="MovieData" VALUE=""><PARAM NAME="SeamlessTabbing" VALUE="1"><PARAM NAME="Profile" VALUE="0"><PARAM NAME="ProfileAddress" VALUE=""><PARAM NAME="ProfilePort" VALUE="0"><PARAM NAME="AllowNetworking" VALUE="all"><PARAM NAME="AllowFullScreen" VALUE="false"><PARAM NAME="AllowFullScreenInteractive" VALUE="false"><PARAM NAME="IsDependent" VALUE="0"><PARAM NAME="BrowserZoom" VALUE="scale"><param name="movie" value="/e/data/images/pixviewer.swf"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><param name="menu" value="false"><param name="wmode" value="opaque"><param name="FlashVars" value="pics=%2Fd%2Ffile%2Fp%2F2018-12-11%2F538e879db321ec626e7f5ca5b8c6e50e.jpg%7C%2Fd%2Ffile%2Fp%2F2018-12-11%2F06e595aa7f17de9b9fb812c78bf098d6.jpg%7C%2Fd%2Ffile%2Fp%2F2018-02-27%2Fe58d8687176e85fdae7caa1ef2c88835.jpg&amp;links=%2Fnews%2Fschoolnews%2F2018-12-11%2F2205.html%7C%2Fnews%2Fschoolnews%2F2018-12-11%2F2204.html%7C%2Fteaching%2Ftraining%2F2018-02-27%2F2136.html&amp;texts=<strong>家校同心绘新篇</strong>|“祖国在我心，青春梦飞翔”校园合唱比赛|开学尽快进入最佳状态&amp;borderwidth=400&amp;borderheight=320&amp;textheight=22&amp;text_align=center&amp;interval_time=3"><embed width="400" height="342" pluginspage="http://www.macromedia.com/go/getflashplayer" src="/e/data/images/pixviewer.swf" type="application/x-shockwave-flash" allowScriptAccess="sameDomain" quality="high" bgcolor="#ffffff" menu="false" FlashVars="pics=%2Fd%2Ffile%2Fp%2F2018-12-11%2F538e879db321ec626e7f5ca5b8c6e50e.jpg%7C%2Fd%2Ffile%2Fp%2F2018-12-11%2F06e595aa7f17de9b9fb812c78bf098d6.jpg%7C%2Fd%2Ffile%2Fp%2F2018-02-27%2Fe58d8687176e85fdae7caa1ef2c88835.jpg&amp;links=%2Fnews%2Fschoolnews%2F2018-12-11%2F2205.html%7C%2Fnews%2Fschoolnews%2F2018-12-11%2F2204.html%7C%2Fteaching%2Ftraining%2F2018-02-27%2F2136.html&amp;texts=<strong>家校同心绘新篇</strong>|“祖国在我心，青春梦飞翔”校园合唱比赛|开学尽快进入最佳状态&amp;borderwidth=400&amp;borderheight=320&amp;textheight=22&amp;text_align=center&amp;interval_time=3" wmode="opaque"></object>
+ </td>
+</tr>
+</tbody></table>
+</td>
+<td class="sider"><table width="100%" class="title" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td><strong><a href="/">最新内容</a></strong>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" class="box no_doc" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td><ul>
+<li><a title="2018.12.3 心灵港湾 ：批评孩子的通用公式" href="/teaching/psychological/2018-12-13/2211.html">2018.12.3 心灵港湾 ：批评孩子的</a></li><li><a title="2018.11.26 心灵港湾：表扬孩子的通用公式" href="/teaching/psychological/2018-12-13/2210.html">2018.11.26 心灵港湾：表扬孩子的</a></li><li><a title="2018.11.19 心灵港湾：真正懂得生活的人" href="/teaching/psychological/2018-12-13/2209.html">2018.11.19 心灵港湾：真正懂得生</a></li><li><a title="2018.11.12  心灵港湾：穷和尚和富和尚" href="/teaching/psychological/2018-12-13/2208.html">2018.11.12  心灵港湾：穷和尚和</a></li><li><a title="2018.11.5 心灵港湾：雕像的故事" href="/teaching/psychological/2018-12-13/2207.html">2018.11.5 心灵港湾：雕像的故事</a></li><li><a title="2018.10.29心灵港湾：时间是最好的医生" href="/teaching/psychological/2018-12-13/2206.html">2018.10.29心灵港湾：时间是最好</a></li><li><a title="家校同心绘新篇" href="/news/schoolnews/2018-12-11/2205.html"><strong>家校同心绘新篇</strong></a></li><li><a title="“祖国在我心，青春梦飞翔”校园合唱比赛" href="/news/schoolnews/2018-12-11/2204.html">“祖国在我心，青春梦飞翔”校园</a></li><li><a title="2018.10.22心灵港湾：曾国藩与贼" href="/teaching/psychological/2018-12-05/2203.html">2018.10.22心灵港湾：曾国藩与贼</a></li><li><a title="2018.10.15心灵港湾：什么叫目标" href="/teaching/psychological/2018-12-05/2202.html">2018.10.15心灵港湾：什么叫目标</a></li></ul></td>
+</tr>
+</tbody></table></td>
+</tr>
+</tbody></table>
+
+<!--左右滚动代码开始-->
+<div id="shz" style="width: 980px; height: 114px; overflow: hidden; margin-left: 10px;">
+<!--此处的高度和宽度可根据你的情况进行调整-->
+    <table width="980" height="114" border="0" cellSpacing="0" cellPadding="0" cellspace="0">
+      <tbody> 
+<tr> 
+          <td height="20" align="center" id="shz1" vAlign="middle"> 
+
+<div align="left" style="width: 980px; height: 114px; font-size: 12px;">
+<table width="100%" border="0" cellSpacing="0" cellPadding="3"><tbody><tr><td align="center"><a href="/school/landscape/2011-12-13/30.html" target="_blank"><img width="160" height="120" alt="" src="/d/file/p/2011-12-13/12f2a78db1836a8fdaa0ed3b2fe4c035.jpg" border="0"></a></td><td align="center"><a href="/school/landscape/2011-04-11/29.html" target="_blank"><img width="160" height="120" alt="" src="/d/file/p/2011-04-11/2037f9105090c90a2eb0a6a40428a855.jpg" border="0"></a></td><td align="center"><a href="/school/landscape/2011-04-11/27.html" target="_blank"><img width="160" height="120" alt="" src="/d/file/p/2011-04-11/cfeee98f82f7960122e27dadb7e7a8cf.jpg" border="0"></a></td><td align="center"><a href="/school/landscape/2011-04-11/26.html" target="_blank"><img width="160" height="120" alt="" src="/d/file/p/2011-04-11/2ac7adea5881ba29743b8c5c11a08fe3.jpg" border="0"></a></td><td align="center"><a href="/school/landscape/2011-04-11/25.html" target="_blank"><img width="160" height="120" alt="" src="/d/file/p/2011-04-11/ac82440e760c8f3aa9ffd25e07abb566.jpg" border="0"></a></td></tr></tbody></table> <!--此处换上你所使用的调用标签-->
+</div>
+
+<td id="shz2" vAlign="top"> 
+
+<div align="left" style="width: 980px; height: 114px; font-size: 12px;">
+<table width="100%" border="0" cellSpacing="0" cellPadding="3"><tbody><tr><td align="center"><a href="/school/landscape/2011-12-13/30.html" target="_blank"><img width="160" height="120" alt="" src="/d/file/p/2011-12-13/12f2a78db1836a8fdaa0ed3b2fe4c035.jpg" border="0"></a></td><td align="center"><a href="/school/landscape/2011-04-11/29.html" target="_blank"><img width="160" height="120" alt="" src="/d/file/p/2011-04-11/2037f9105090c90a2eb0a6a40428a855.jpg" border="0"></a></td><td align="center"><a href="/school/landscape/2011-04-11/27.html" target="_blank"><img width="160" height="120" alt="" src="/d/file/p/2011-04-11/cfeee98f82f7960122e27dadb7e7a8cf.jpg" border="0"></a></td><td align="center"><a href="/school/landscape/2011-04-11/26.html" target="_blank"><img width="160" height="120" alt="" src="/d/file/p/2011-04-11/2ac7adea5881ba29743b8c5c11a08fe3.jpg" border="0"></a></td><td align="center"><a href="/school/landscape/2011-04-11/25.html" target="_blank"><img width="160" height="120" alt="" src="/d/file/p/2011-04-11/ac82440e760c8f3aa9ffd25e07abb566.jpg" border="0"></a></td></tr></tbody></table> <!--此处换上你所使用的调用标签-->
+</div>
+
+</td></tr></tbody></table></div>
+<script>
+var speed=30
+shz2.innerHTML=shz1.innerHTML
+function Marquee1(){
+if(shz2.offsetWidth-shz.scrollLeft<=0)
+shz.scrollLeft-=shz1.offsetWidth
+else{
+shz.scrollLeft++
+}
+}
+var MyMar1=setInterval(Marquee1,40)
+shz.onmouseover=function() {clearInterval(MyMar1)}
+shz.onmouseout=function() {MyMar1=setInterval(Marquee1,40)}
+</script>
+<!--左右滚动代码结束-->
+
+<table width="100%" border="0" cellSpacing="10" cellPadding="0">
+<tbody><tr vAlign="top">
+<td width="300" class="sider"><table width="100%" class="title" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td><strong><a href="/party/">党建工会</a></strong></td>
+</tr>
+</tbody></table>
+<table width="100%" class="box no_doc" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td><ul>
+<li><a title="在纪念周恩来同志诞辰120周年座谈会上的发言" href="/party/learning/2018-04-09/2189.html">在纪念周恩来同志诞辰120周年座谈</a></li><li><a title="理解十九大精神的一把钥匙" href="/party/learning/2018-04-08/2188.html">理解十九大精神的一把钥匙</a></li><li><a title="中国共产党人的杰出楷模—— 学习习近平总书记在纪念周恩来同志诞辰120周年座谈会上的讲话" href="/party/learning/2018-04-08/2187.html">中国共产党人的杰出楷模—— 学习</a></li><li><a title="深刻理解中国特色社会主义进入新时代" href="/party/learning/2018-04-04/2184.html">深刻理解中国特色社会主义进入新</a></li><li><a title="坚持文化改革方向　探索科学发展之路" href="/party/learning/2018-04-04/2183.html">坚持文化改革方向　探索科学发展</a></li><li><a title="深刻理解中国特色社会主义进入新时代的重大意义" href="/party/learning/2018-04-04/2182.html">深刻理解中国特色社会主义进入新</a></li><li><a title="弘扬“红船精神” 凝聚时代力量" href="/party/learning/2018-04-03/2156.html">弘扬“红船精神” 凝聚时代力量</a></li><li><a title="贡献中国传统文化智慧，推动构建人类命运共同体" href="/party/learning/2018-04-02/2151.html">贡献中国传统文化智慧，推动构建</a></li><li><a title="周恩来-----一个光荣而不朽的名字" href="/party/learning/2018-03-30/2150.html">周恩来-----一个光荣而不朽的名字</a></li><li><a title="中国共产党人的杰出楷模" href="/party/learning/2018-03-30/2149.html">中国共产党人的杰出楷模</a></li></ul></td>
+</tr>
+</tbody></table>
+<table width="100%" class="title margin_top" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td><strong><a href="/moral/forum/">班主任论坛</a></strong></td>
+</tr>
+</tbody></table>
+<table width="100%" class="box no_doc" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td><ul>
+              <li><a title="班主任与学生谈话的八种方式" href="/moral/forum/2016-12-21/1868.html">班主任与学生谈话的八种方式</a></li><li><a title="成就班主任的五心教育" href="/moral/forum/2016-12-21/1867.html">成就班主任的五心教育</a></li><li><a title="班主任如何与学生家长沟通" href="/moral/forum/2016-12-21/1866.html">班主任如何与学生家长沟通</a></li><li><a title="做好一名班主任应具备的六个条件" href="/moral/forum/2016-12-21/1865.html">做好一名班主任应具备的六个条件</a></li><li><a title="班级管理之我见" href="/moral/forum/2016-12-21/1864.html">班级管理之我见</a></li><li><a title="2011-2012学年度九年级优秀班主任推介" href="/moral/forum/2012-12-05/957.html">2011-2012学年度九年级优秀班主任</a></li><li><a title="2011-2012学年度八年级优秀班主任推介" href="/moral/forum/2012-12-05/956.html">2011-2012学年度八年级优秀班主任</a></li><li><a title="2011-2012学年度七年级优秀班主任推介" href="/moral/forum/2012-12-05/955.html">2011-2012学年度七年级优秀班主任</a></li><li><a title="实验初中班级管理问题探讨交流" href="/moral/forum/2010-12-29/226.html">实验初中班级管理问题探讨交流</a></li><li><a title="实验初中班级管理问题探讨解决方法交流" href="/moral/forum/2010-12-27/221.html">实验初中班级管理问题探讨解决方</a></li> 
+            </ul>
+</td>
+</tr>
+</tbody></table></td>
+<td class="content"><!-- tab选项卡，默认为点击变化，如需改为移动，将onmouseover改为onclick -->
+<table width="100%" class="tbtn1" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td class="tbtncon"><ul><li class="curr" id="tab1_btn1_0" onmouseover="etabit1(this)"><a href="/teaching/education/">教育科研</a></li><li id="tab1_btn1_1" onmouseover="etabit1(this)"><a href="/teaching/dynamicteaching/">教研活动</a></li><li id="tab1_btn1_2" onmouseover="etabit1(this)"><a href="/teaching/">校本培训</a></li></ul></td>
+</tr>
+<tr>
+<td><div class="box2" id="tab1_div1_0">  <li><a title="课程整合  异彩纷呈" href="/teaching/education/2017-04-01/1958.html"><strong>课程整合  异彩纷呈</strong></a></li><li><a title="让课题立足教学现场" href="/teaching/education/2017-03-09/1900.html"><strong>让课题立足教学现场</strong></a></li><li><a title="关于申报“青岛市中小学教育科研专著出版与成果奖励基金”第五批资助出版成果的通知" href="/teaching/education/2017-03-01/1883.html"><strong>关于申报“青岛市中小学教育科研专著出</strong></a></li><li><a title="实验初中举行“问题引领式”专题读书沙龙活动" href="/teaching/education/2017-02-14/1881.html"><strong>实验初中举行“问题引领式”专题读书沙</strong></a></li><li><a title="《中国学生发展核心素养》总体框架" href="/teaching/education/2017-01-04/1876.html"><strong>《中国学生发展核心素养》总体框架</strong></a></li><li><a title="关于转发青岛市教育局《关于组织2015年度“读教育名著、做智慧教师”读书实践成果评选活动的通知》的通知" href="/teaching/education/2015-07-01/1648.html"><strong>关于转发青岛市教育局《关于组织2015年</strong></a></li><li><a title="姜震   声震青岛    壮我校威" href="/teaching/education/2015-05-14/1605.html"><strong>姜震   声震青岛    壮我校威</strong></a></li><li><a title="“诵国学经典，享智慧人生”" href="/teaching/education/2015-04-16/1576.html"><strong>“诵国学经典，享智慧人生”</strong></a></li><li><a title="“书香致远”书友会纳新启事" href="/teaching/education/2015-04-13/1571.html"><strong>“书香致远”书友会纳新启事</strong></a></li><li><a title="上交“立德树人”论文的通知" href="/teaching/education/2015-03-01/1535.html"><strong>上交“立德树人”论文的通知</strong></a></li> 
+            </div>
+            <div class="box2" id="tab1_div1_1" style="display: none;">  <li><a title="实验初中2016-2017学年度第二学期第9周教研活动安排" href="/teaching/dynamicteaching/2017-04-10/1974.html">实验初中2016-2017学年度第二学期第9周</a></li><li><a title="胶州秧歌进校园(图文)" href="/teaching/dynamicteaching/2017-03-30/1957.html">胶州秧歌进校园(图文)</a></li><li><a title="实验初中2016-2017学年度第二学期第7周教研活动安排" href="/teaching/dynamicteaching/2017-03-28/1949.html">实验初中2016-2017学年度第二学期第7周</a></li><li><a title="实验初中2016-2017学年度第二学期第6周教研活动安排" href="/teaching/dynamicteaching/2017-03-28/1948.html">实验初中2016-2017学年度第二学期第6周</a></li><li><a title="实验初中2016-2017学年度第二学期第5周教研活动安排" href="/teaching/dynamicteaching/2017-03-13/1911.html">实验初中2016-2017学年度第二学期第5周</a></li><li><a title="实验初中2016-2017(二）第4周教研活动安排" href="/teaching/dynamicteaching/2017-03-09/1901.html">实验初中2016-2017(二）第4周教研活动安</a></li><li><a title="实验初中2016-2017学年度（二）第3周教研活动安排" href="/teaching/dynamicteaching/2017-03-06/1888.html">实验初中2016-2017学年度（二）第3周教</a></li><li><a title="实验初中2016-2017（二）第2周教研活动安排" href="/teaching/dynamicteaching/2017-03-06/1887.html">实验初中2016-2017（二）第2周教研活动</a></li><li><a title="胶州市初中生物教学研讨会" href="/teaching/dynamicteaching/2017-03-06/1886.html">胶州市初中生物教学研讨会</a></li><li><a title="青岛市初中英语教研活动" href="/teaching/dynamicteaching/2017-03-06/1885.html">青岛市初中英语教研活动</a></li> 
+            </div>
+            <div class="box2" id="tab1_div1_2" style="display: none;">  <li><a title="抓基础 促积累 教方法 促提升" href="/teaching/training/2018-02-27/2137.html">抓基础 促积累 教方法 促提升</a></li><li><a title="开学尽快进入最佳状态" href="/teaching/training/2018-02-27/2136.html">开学尽快进入最佳状态</a></li><li><a title="严禁中小学校和在职中小学教师有偿补课的规定" href="/teaching/training/2017-04-11/1980.html">严禁中小学校和在职中小学教师有偿补课</a></li><li><a title="中小学教师违反职业道德行为处理办法" href="/teaching/training/2017-04-11/1979.html">中小学教师违反职业道德行为处理办法</a></li><li><a title="教师职业道德规范" href="/teaching/training/2017-04-11/1978.html">教师职业道德规范</a></li><li><a title="加强和改进师德建设的意见" href="/teaching/training/2017-04-11/1977.html">加强和改进师德建设的意见</a></li><li><a title="教育法" href="/teaching/training/2017-04-11/1976.html">教育法</a></li><li><a title="教师法" href="/teaching/training/2017-04-11/1975.html">教师法</a></li><li><a title="实验初中期初“金点子”交流精彩纷呈" href="/teaching/training/2017-03-02/1884.html">实验初中期初“金点子”交流精彩纷呈</a></li> 
+            </div>
+            </td>
+</tr>
+</tbody></table>
+<table width="100%" class="tbtn1 margin_top" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td class="tbtncon"><ul><li class="curr" id="tab2_btn2_0" onmouseover="etabit2(this)"><a href="/teaching/psychological/">心灵港湾</a></li><li id="tab2_btn2_1" onmouseover="etabit2(this)"><a href="/teaching/meiwen/">美文欣赏</a></li><li id="tab2_btn2_2" onmouseover="etabit2(this)"><a href="/teaching/topics/">信息技术</a></li></ul></td>
+</tr>
+<tr>
+<td><div class="box2" id="tab2_div2_0">  <li><a title="2018.12.3 心灵港湾 ：批评孩子的通用公式" href="/teaching/psychological/2018-12-13/2211.html">2018.12.3 心灵港湾 ：批评孩子的通用公</a></li><li><a title="2018.11.26 心灵港湾：表扬孩子的通用公式" href="/teaching/psychological/2018-12-13/2210.html">2018.11.26 心灵港湾：表扬孩子的通用公</a></li><li><a title="2018.11.19 心灵港湾：真正懂得生活的人" href="/teaching/psychological/2018-12-13/2209.html">2018.11.19 心灵港湾：真正懂得生活的人</a></li><li><a title="2018.11.12  心灵港湾：穷和尚和富和尚" href="/teaching/psychological/2018-12-13/2208.html">2018.11.12  心灵港湾：穷和尚和富和尚</a></li><li><a title="2018.11.5 心灵港湾：雕像的故事" href="/teaching/psychological/2018-12-13/2207.html">2018.11.5 心灵港湾：雕像的故事</a></li><li><a title="2018.10.29心灵港湾：时间是最好的医生" href="/teaching/psychological/2018-12-13/2206.html">2018.10.29心灵港湾：时间是最好的医生</a></li><li><a title="2018.10.22心灵港湾：曾国藩与贼" href="/teaching/psychological/2018-12-05/2203.html">2018.10.22心灵港湾：曾国藩与贼</a></li><li><a title="2018.10.15心灵港湾：什么叫目标" href="/teaching/psychological/2018-12-05/2202.html">2018.10.15心灵港湾：什么叫目标</a></li><li><a title="2018.10.8心灵港湾：砍树" href="/teaching/psychological/2018-12-05/2201.html">2018.10.8心灵港湾：砍树</a></li><li><a title="2018.9.24心灵港湾：当你……" href="/teaching/psychological/2018-12-05/2200.html">2018.9.24心灵港湾：当你……</a></li> 
+            </div>
+            <div class="box2" id="tab2_div2_1" style="display: none;">  <li><a title="《中国学生发展核心素养》总体框架1" href="/teaching/meiwen/2017-01-04/1877.html">《中国学生发展核心素养》总体框架1</a></li><li><a title="王平老师《初中物理翻转课堂教学模式手册》推荐" href="/teaching/meiwen/2016-01-13/1735.html"><strong>王平老师《初中物理翻转课堂教学模式手</strong></a></li><li><a title="第20周美文欣赏钟启泉《避免中国基础教育大学化， 要把开发课程当回事》" href="/teaching/meiwen/2016-01-11/1734.html"><strong>第20周美文欣赏钟启泉《避免中国基础教</strong></a></li><li><a title="第17周美文欣赏《让读书支撑我们的生命》" href="/teaching/meiwen/2015-12-21/1726.html"><strong>第17周美文欣赏《让读书支撑我们的生命</strong></a></li><li><a title="2015年影响教师的100本书推荐" href="/teaching/meiwen/2015-12-17/1725.html"><strong>2015年影响教师的100本书推荐</strong></a></li><li><a title="刘局长推荐文章《善待你的单位》学习体会" href="/teaching/meiwen/2015-11-05/1710.html"><strong>刘局长推荐文章《善待你的单位》学习体</strong></a></li><li><a title="责商教育的价值" href="/teaching/meiwen/2015-11-02/1704.html"><strong>责商教育的价值</strong></a></li><li><a title="北京市将实施新的课程计划，课时长不必统一" href="/teaching/meiwen/2015-10-26/1694.html"><strong>北京市将实施新的课程计划，课时长不必</strong></a></li><li><a title="刘兴德同志推荐文章之二十四" href="/teaching/meiwen/2015-05-04/1593.html"><strong>刘兴德同志推荐文章之二十四</strong></a></li><li><a title="刘兴德同志推荐文章之二十二" href="/teaching/meiwen/2015-05-04/1592.html"><strong>刘兴德同志推荐文章之二十二</strong></a></li> 
+            </div>
+           <div class="box2" id="tab2_div2_2" style="display: none;">  <li><a title="英语人机对话光盘下载（2018）" href="/teaching/topics/2018-03-09/2140.html">英语人机对话光盘下载（2018）</a></li><li><a title="微软Windows操作系统发展简史" href="/teaching/topics/2017-05-16/2024.html">微软Windows操作系统发展简史</a></li><li><a title="关于防范基于SMB文件共享传播的蠕虫病毒攻击 紧急安全预警通告" href="/teaching/topics/2017-05-15/2023.html">关于防范基于SMB文件共享传播的蠕虫病毒</a></li><li><a title="QQ影音编辑视频简要操作方法" href="/teaching/topics/2017-04-17/1991.html">QQ影音编辑视频简要操作方法</a></li><li><a title="格式工厂压缩视频文件简要操作方法" href="/teaching/topics/2017-04-17/1990.html">格式工厂压缩视频文件简要操作方法</a></li><li><a title="关于开展青岛市第二届中小学信息技术创新与实践活动的通知" href="/teaching/topics/2017-04-01/1959.php">关于开展青岛市第二届中小学信息技术创</a></li> 
+            </div>
+            </td>
+</tr>
+</tbody></table>
+</td>
+<td width="300" class="sider"><table width="100%" class="title" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td><strong><a href="/moral/activities/">团队活动</a></strong></td>
+</tr>
+</tbody></table>
+<table width="100%" class="box no_doc" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td><ul>
+              <li><a title="行动起来，争做护绿使者" href="/moral/team/2018-03-19/2143.html">行动起来，争做护绿使者</a></li><li><a title="实验初中“践行十九大精神，做新时代的接班人”" href="/moral/team/2018-03-19/2142.html">实验初中“践行十九大精神，做新</a></li><li><a title="苍松翠柏存浩气  清明时节祭英灵" href="/moral/team/2018-03-19/2141.html">苍松翠柏存浩气  清明时节祭英灵</a></li><li><a title="2015年9月黑板报评比、展示(图文)" href="/moral/team/2015-09-22/1677.html"><strong><font color="#ff0000">2015年9月黑板报评比、展示(图文</font></strong></a></li><li><a title="胶州市初级实验中学开展“老师，我想对您说……”(图文)" href="/moral/team/2015-09-10/1667.html">胶州市初级实验中学开展“老师，</a></li><li><a title="“我是应急宣讲员”演讲比赛" href="/moral/team/2015-06-24/1637.html">“我是应急宣讲员”演讲比赛</a></li><li><a title="2015年5月各班黑板报" href="/moral/team/2015-06-10/1626.html">2015年5月各班黑板报</a></li><li><a title="2014年9月班级黑板报评比(图文)" href="/moral/team/2014-10-17/1445.html">2014年9月班级黑板报评比(图文)</a></li><li><a title="2014年5月" href="/moral/team/2014-05-19/1351.html" 感恩?主题黑板报评比?="">2014年5月"感恩"主题黑板报评比</a></li><li><a title="2014年2月“新学期，新气象”黑板报评比" href="/moral/team/2014-03-03/1279.html">2014年2月“新学期，新气象”黑板</a></li> 
+            </ul></td>
+</tr>
+</tbody></table>
+<table width="100%" class="title margin_top" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td><strong><a href="/resoure/soft/">常用软件</a></strong></td>
+</tr>
+</tbody></table>
+<table width="100%" class="box no_doc" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td><ul>
+<li><a title="英语光盘2018" href="/resoure/soft/2018-03-09/2679.php">英语光盘2018</a></li><li><a title="报告厅LED" href="/resoure/soft/2016-12-13/2678.php">报告厅LED</a></li><li><a title="laserjet1020plus" href="/resoure/soft/2016-05-18/2667.php">laserjet1020plus</a></li><li><a title="hp1020plus-64" href="/resoure/soft/2016-05-04/2666.php">hp1020plus-64</a></li><li><a title="hp1020plus-32" href="/resoure/soft/2016-05-04/2665.php">hp1020plus-32</a></li><li><a title="hp1008_64 位" href="/resoure/soft/2015-12-23/2645.php">hp1008_64 位</a></li><li><a title="hp p1008" href="/resoure/soft/2015-10-04/2633.php">hp p1008</a></li><li><a title="dlink打印服务器dp-302" href="/resoure/soft/2015-10-03/2632.php">dlink打印服务器dp-302</a></li><li><a title="新版即时通安装使用说明及相关材料" href="/resoure/soft/2015-09-23/2631.php">新版即时通安装使用说明及相关材料</a></li><li><a title="ocam屏幕录像工具" href="/resoure/soft/2015-08-10/2627.php">ocam屏幕录像工具</a></li> 
+</ul></td>
+</tr>
+</tbody></table></td>
+</tr>
+</tbody></table>
+<!-- 友情链接 -->
+<table width="100%" class="links" border="0" cellSpacing="10" cellPadding="0">
+<tbody><tr>
+<td><table width="100%" class="title" bgColor="#e9f2fb" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td><strong>友情链接</strong></td>
+          <td align="right">&nbsp;</td>
+</tr>
+</tbody></table>
+<table width="100%" class="box" border="0" cellSpacing="10" cellPadding="0">
+<tbody><tr>
+          <td>
+            <!-- 文字链接 -->
+            <table width="100%" border="0" cellSpacing="0" cellPadding="3"><tbody><tr><td align="center"><a title="中国教育部" href="http://www.moe.gov.cn/" target="_blank">中国教育部</a></td><td align="center"><a title="国家教育资源公共服务平台" href="http://www.eduyun.cn/" target="_blank">国家教育资源公共服务平台</a></td><td align="center"><a title="国家基础教育资源网" href="http://www.cbern.com.cn" target="_blank">国家基础教育资源网</a></td><td align="center"><a title="青岛教育信息网" href="http://www.qdedu.net" target="_blank">青岛教育信息网</a></td><td align="center"><a title="胶州市教育体育局" href="http://www.jz.qdedu.net" target="_blank">胶州市教育体育局</a></td><td align="center"><a title="山东省教师教育网" href="http://www.qlteacher.com" target="_blank">山东省教师教育网</a></td></tr><tr><td align="center"><a title="教体局通知" href="http://tz.jz.qdedu.net/admin.asp" target="_blank">教体局通知</a></td><td align="center"><a title="宁波外语学院" href="http://www.ningwai.net/" target="_blank">宁波外语学院</a></td><td align="center"><a title="森特纳雷国际高中" href="https://centheigshs.eq.edu.au/Pages/default.aspx" target="_blank">森特纳雷国际高中</a></td><td align="center"><a title="华东师大第一附中" href="http://www.sdfz.sh.cn/" target="_blank">华东师大第一附中</a></td><td align="center"><a title="江苏泰兴洋思中学" href="http://ys.30edu.com/" target="_blank">江苏泰兴洋思中学</a></td><td align="center"><a title="书缘网络图书馆" href="http://192.168.110.5/library" target="_blank">书缘网络图书馆</a></td></tr></tbody></table> 
+            <hr width="100%" SIZE="1" noShade="noshade">
+            <!-- logo链接 -->
+            </td>
+</tr>
+</tbody></table></td>
+</tr>
+</tbody></table>
+</div>
+<!-- 页脚 -->
+<table width="100%" class="search" border="0" cellSpacing="0" cellPadding="0">
+<tbody><tr>
+<td align="center" class="search">
+<form name="searchform" id="searchform" action="/e/search/index.php" method="post" 360chrome_form_autofill="2">
+<table border="0" cellSpacing="6" cellPadding="0">
+<tbody><tr>
+<td><strong>站内搜索：</strong>
+<input name="keyboard" class="inputText" id="keyboard" type="text" size="32">
+<input name="show" type="hidden" value="title">
+<input name="tempid" type="hidden" value="1">
+<select name="tbname">
+<option value="news">文字</option>
+<option value="photo">图片</option>
+<option value="download">下载</option>
+</select>
+</td>
+<td><input class="inputSub" type="image" src="/skin/default/images/search.gif">
+</td>
+<td><a href="/search/" target="_blank">高级搜索</a></td>
+</tr>
+</tbody></table>
+</form>
+</td>
+</tr>
+<tr>
+<td>
+	<table width="100%" class="copyright" border="0" cellSpacing="4" cellPadding="0">
+        <tbody><tr> 
+          <td align="center"><a href="/">网站首页</a> | <a href="#">关于我们</a> 
+            | <a href="#">服务条款</a> | <a href="#">联系我们</a> 
+            | <a href="#">网站地图</a> | <a href="#">免责声明</a> | <a href="/e/wap/" target="_blank">WAP</a> | <a href="/e/admin">管理入口</a> </td>
+        </tr>
+        
+       <tr><td align="center"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/16/235/1100/41226306/CA162351100412263060002.js' type='text/javascript'%3E%3C/script%3E"));</script><span id="_ideConac"><a href="//bszs.conac.cn/sitename?method=show&amp;id=0922834C0C301D41E053012819AC4180" target="_blank"><img id="imgConac" src="//dcs.conac.cn/image/blue.png" border="0" vspace="0" hspace="0" data-bd-imgshare-binded="1"></a></span><script src="http://dcs.conac.cn/js/16/235/1100/41226306/CA162351100412263060002.js" type="text/javascript"></script><span id="_ideConac"></span></td>
+       	</tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
